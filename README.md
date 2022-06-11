@@ -1,5 +1,5 @@
 # Cloud Functions: Command Line
-Cloud Functions is a serverless execution environment for building and connecting cloud services. With Cloud Functions you write simple, single-purpose functions that are attached to events emitted from your cloud infrastructure and services. Your Cloud Function is triggered when an event being watched is fired. Your code executes in a fully managed environment. There is no need to provision any infrastructure or worry about managing any servers.
+Cloud Functions is a serverless execution environment for building and connecting cloud services. With Cloud Functions, you write simple, single-purpose functions that are attached to events emitted from your cloud infrastructure and services. Your Cloud Function is triggered when an event being watched is fired. Your code executes in a fully managed environment. There is no need to provision any infrastructure or worry about managing any servers.
 ## Create a function
 Create a directory for the function code.
   
@@ -15,7 +15,7 @@ Move to the `gcf_hello_world` directory.
 Create and open `index.js` to edit.
 
 `nano index.js`
-Copy the following into the `index.js` file
+Copy the following into the `index.js` file.
 ```
 /**
 * Background Cloud Function to be triggered by Pub/Sub.
@@ -44,7 +44,7 @@ Exit nano (Ctrl+x) and save (Y) the file.
 
 ## Deploy your function
 
-Deploy the function to a pub/sub topic named h`ello_world`, replacing [BUCKET_NAME] with the name of your bucket:
+Deploy the function to a pub/sub topic named `hello_world`, replacing [BUCKET_NAME] with the name of your bucket:
 
 ```
 gcloud functions deploy helloWorld \
